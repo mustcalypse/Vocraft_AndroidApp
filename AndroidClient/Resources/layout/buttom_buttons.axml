@@ -1,0 +1,32 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+      
+    <Button   
+      android:text="Definitions"
+      android:textSize="11dp"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:id="@+id/btnShowDefinitions"/>
+    <Button
+      android:text="Examples"
+      android:textSize="12dp"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:id="@+id/btnShowExamples"/>
+    <Button
+      android:text="Relateds"
+      android:textSize="12dp"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:id="@+id/btnShowRelateds"/>
+    <Button
+      android:text="Article"
+      android:textSize="12dp"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:id="@+id/btnShowArticle"/>
+  
+</merge>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="6"
+    android:layout_margin="3dp"
+    android:background="#000000">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6FC587"
+        android:layout_margin="1dp"
+        android:layout_gravity="top">
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtSearch"
+            android:background="#DEDEDE"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="clip_vertical"
+        android:layout_weight="1">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:layout_margin="1dp"
+            android:id="@+id/lvSearchResultContainer" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="0.3"
+            android:id="@+id/LayoutMainScreen" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <include
+            layout="@layout/buttom_buttons" />
+    </LinearLayout>
+</LinearLayout>
